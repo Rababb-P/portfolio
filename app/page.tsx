@@ -281,6 +281,14 @@ export default function Portfolio() {
               demoUrl="https://martingrovebeacon.com"
               repoUrl="https://github.com/Rababb-P/beaconfinal"
             />
+            <ProjectCard
+              title="E-commerce Website to sell digital signatures"
+              description="Created a React website to sell digital signatures. Used Stripe to collect payment and used Supabase to store buyer information to create their signature."
+              tags={["Stripe", "Supabase", "React"]}
+              image="/siglab.png?height=400&width=600"
+              demoUrl="https://thesignaturelab.com/"
+              repoUrl="https://github.com/Rababb-P/thesignaturelab"
+            />
           </div>
         </div>
       </section>

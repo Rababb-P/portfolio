@@ -13,22 +13,16 @@ const experiences = [
   {
     title: "Website Developer",
     company: "The Signature Lab",
-    period: "2025 - Present",
+    period: "December 2024 - March 2025",
     description:
-      "Developed responsive web applications using React and TypeScript. Collaborated with designers and backend engineers to deliver high-quality products.",
+      "Developed an E-commerce website in React, utilizing Stripe for payments and Supabase to collect and store buyer order info.",
   },
   {
-    title: "Web Developer",
-    company: "Creative Agency",
-    period: "2017 - 2019",
+    title: "UofT Robotics for Space Exploration Electrical Member",
+    company: "University of Toronto",
+    period: "August 2024 - February 2025",
     description:
-      "Built websites and web applications for various clients. Worked with HTML, CSS, JavaScript, and WordPress.",
-  },
-  {
-    title: "Intern",
-    company: "Startup Hub",
-    period: "2016 - 2017",
-    description: "Assisted in developing web applications and learned modern web development practices.",
+      "Designed and soldered a PCB to deliver 12 volts of power to a stacklight from a programmable microcontroller that only delivers 5 volts normally, and also programmed the microcontroller to control the stacklight. Additionally, I used CAD and 3D printing to create a holding mechanism for loose parts on our space rover.",
   },
 ]
 
