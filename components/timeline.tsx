@@ -5,16 +5,15 @@ import { useMobile } from "@/hooks/use-mobile"
 
 const experiences = [
   {
-    title: "Senior Frontend Engineer",
-    company: "Tech Innovations Inc.",
-    period: "2021 - Present",
+    title: "2x Hackathon Winner, 6+ Hackathon Participant",
+    period: "2024 - Present",
     description:
-      "Lead the frontend development team in building a SaaS platform. Implemented new features, improved performance, and mentored junior developers.",
+      "Particpated in 6+ Hackathons, won best use of Auth0 at Hack the North 2024 and recieved first place in UofT's Seek Jr 2024 Hackathon.",
   },
   {
-    title: "Frontend Developer",
-    company: "Digital Solutions Co.",
-    period: "2019 - 2021",
+    title: "Website Developer",
+    company: "The Signature Lab",
+    period: "2025 - Present",
     description:
       "Developed responsive web applications using React and TypeScript. Collaborated with designers and backend engineers to deliver high-quality products.",
   },

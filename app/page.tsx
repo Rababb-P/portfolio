@@ -46,12 +46,14 @@ export default function Portfolio() {
               I'm a Computer Engineering student at the University of Waterloo with a passion for full stack development and robotics.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
-              <Button className="relative overflow-hidden group bg-gradient-to-r from-purple-500 to-pink-500 border-0">
-                <span className="relative z-10 flex items-center">
-                  View Projects <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </span>
-                <span className="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity"></span>
-              </Button>
+              <Link href="#projects" scroll={true}>
+                <Button className="relative overflow-hidden group bg-gradient-to-r from-purple-500 to-pink-500 border-0">
+                  <span className="relative z-10 flex items-center">
+                    View Projects <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </span>
+                  <span className="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                </Button>
+              </Link>
               <Button
                 variant="outline"
                 className="border-zinc-700 text-zinc-300 hover:text-white hover:border-zinc-500"
@@ -132,7 +134,7 @@ export default function Portfolio() {
               <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-purple-500/20 to-pink-500/20 blur-xl opacity-70"></div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-zinc-800">
                 <img
-                  src="/placeholder.svg?height=600&width=600"
+                  src="/rababbpfp.jpg?height=600&width=600"
                   alt="Rababb Pannu"
                   className="w-full h-full object-cover"
                 />
@@ -149,15 +151,15 @@ export default function Portfolio() {
             <div className="space-y-6">
               <GlassmorphicCard>
                 <p className="text-lg text-zinc-300">
-                  I'm a passionate computer engineer with experience full stack web applications. I
+                  I'm a passionate computer engineer with experience in creating full stack web applications. I
                   specialize in frontend development with React and Next.js, but I'm also comfortable working with
                   backend technologies.
                 </p>
                 <p className="text-lg text-zinc-300 mt-4">
-                  My journey in tech started with in robotics, as my high schools head of programming for FIRST Robotics. I've since expanded my horizons to full stack web development, PCB design and robotics programming.
+                  My journey in tech started in robotics, as my high schools head of programming for FIRST Robotics. I've since expanded my horizons to full stack web development, PCB design and robotics programming.
                 </p>
                 <p className="text-lg text-zinc-300 mt-4">
-                  When I'm not coding, you can find me playing ball hockey, studying for school and keeping up with the latest technologies.
+                  When I'm not coding, you can find me playing ball hockey, studying for my computer engineering classes at the University of Waterloo and keeping up with the latest technologies.
                 </p>
 
                 <div className="grid grid-cols-2 gap-4 mt-8">
@@ -211,13 +213,13 @@ export default function Portfolio() {
             <SkillBadge name="TypeScript" level={85} />
             <SkillBadge name="React" level={95} />
             <SkillBadge name="Next.js" level={90} />
-            <SkillBadge name="Node.js" level={80} />
+            <SkillBadge name="Arduino" level={80} />
             <SkillBadge name="HTML/CSS" level={95} />
             <SkillBadge name="Tailwind CSS" level={90} />
-            <SkillBadge name="GraphQL" level={75} />
-            <SkillBadge name="PostgreSQL" level={70} />
-            <SkillBadge name="AWS" level={65} />
-            <SkillBadge name="Docker" level={60} />
+            <SkillBadge name="PCB Design" level={75} />
+            <SkillBadge name="SQL" level={50} />
+            <SkillBadge name="AWS" level={35} />
+            <SkillBadge name="Python" level={90} />
             <SkillBadge name="Git" level={85} />
           </div>
         </div>
@@ -235,52 +237,49 @@ export default function Portfolio() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
             <ProjectCard
-              title="E-commerce Platform"
-              description="A full-stack e-commerce platform built with Next.js, Stripe, and Prisma."
-              tags={["Next.js", "TypeScript", "Prisma", "Stripe"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              title="Hack the North 2025 Award Winner"
+              description="A full-stack collaborative site to lip read videos and create notes and quizzes based off content read."
+              tags={["React", "Symphonic Labs' API", "OpenAI API", "Auth0", "MongoDB", "Cohere API"]}
+              image="/studysync.jpg?height=400&width=600"
+              demoUrl="https://devpost.com/software/studying-with-hack-the-north?ref_content=user-portfolio&ref_feature=in_progress"
+              repoUrl="https://github.com/Rababb-P/StudySync-HTN"
             />
             <ProjectCard
-              title="Task Management App"
-              description="A collaborative task management application with real-time updates."
-              tags={["React", "Firebase", "Tailwind CSS", "Redux"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              title="AI Garbage and Recycling Sorter"
+              description="Waste bin that identifies garbage and recycling using a custom trained AI model and sorts them into seperate bins."
+              tags={["Arduino", "Python", "Tensorflow"]}
+              image="/aisortnocam.jpg?height=400&width=600"
+              demoUrl="https://devpost.com/software/smart-bin-owq4am"
             />
             <ProjectCard
-              title="AI Content Generator"
-              description="An AI-powered content generation tool using OpenAI's GPT models."
-              tags={["Next.js", "OpenAI API", "Node.js", "MongoDB"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              title="FIFA World Cup Stats On Graphs"
+              description="A website that uses data from FIFA's 2022 world cup to create graphs analysing teams and their playstyles."
+              tags={["React", "SQL", "MatPlotLib", "Python"]}
+              image="/fifasite.png?height=400&width=400"
+              repoUrl="https://github.com/Rababb-P/UofTCreate2024Capstone"
             />
             <ProjectCard
-              title="Fitness Tracker"
-              description="A mobile-first fitness tracking application with data visualization."
-              tags={["React Native", "TypeScript", "D3.js", "Firebase"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              title="Team 854 Iron Bears First Robotics Robot and Learning Site"
+              description="In 2025, I was the head of programming for Team 854, I programmed our robot and created a website for new programmers to learn on."
+              tags={["Java", "WPILIB", "Robotics", "React"]}
+              image="/frcpic.png?height=400&width=600"
+              demoUrl="https://rababb-p.github.io/frccoding/"
+              repoUrl="https://github.com/Rababb-P/2025_Robot"
             />
             <ProjectCard
-              title="Weather Dashboard"
-              description="A beautiful weather dashboard with forecasts and historical data."
-              tags={["React", "Weather API", "Chart.js", "Styled Components"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              title="UofT Seek Jr 2024 1st Place"
+              description="My team and I obtained first place in this hackathon by creating and programming an Arduino controlled rover to autonomously navigate a maze and then scan barcodes while under Bluetooth control."
+              tags={["Arduino", "C++"]}
+              image="/seekjrwin.png?height=400&width=600"
+              demoUrl="https://rsxutoronto.wixsite.com/mysite/seek-jr-2024"
             />
             <ProjectCard
-              title="Portfolio Website"
-              description="This portfolio website built with Next.js and Tailwind CSS."
-              tags={["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              title="School Newspaper Website"
+              description="Editor-in-Chief (President) of my school's newspaper from September 2023 to June 2025 and worked with our web team to create a React website to digitize our articles."
+              tags={["React", "Tailwind CSS", "Framer Motion"]}
+              image="/beaconweb.png?height=400&width=600"
+              demoUrl="https://martingrovebeacon.com"
+              repoUrl="https://github.com/Rababb-P/beaconfinal"
             />
           </div>
         </div>
