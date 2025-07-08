@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { ArrowRight, Github, Linkedin, Mail, Instagram } from "lucide-react"
-
+import Image from "next/image";
 import { Button } from "@/components/ui/button"
 import { ProjectCard } from "@/components/project-card"
 import { SkillBadge } from "@/components/skill-badge"
@@ -133,11 +133,14 @@ export default function Portfolio() {
             <div className="relative">
               <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-green-400/20 to-green-700/20 blur-xl opacity-70"></div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-zinc-800">
-                <img
-                  src="/rababbpfp.jpg?height=600&width=600"
+                <Image
+                  src="/rababbpfp.jpg"
                   alt="Rababb Pannu"
+                  width={600}
+                  height={600}
                   className="w-full h-full object-cover"
                 />
+
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 w-full p-6">
                   <div className="flex items-center gap-2">
