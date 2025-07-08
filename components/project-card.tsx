@@ -35,16 +35,16 @@ export function ProjectCard({
       viewport={{ once: true }}
     >
       <div
-        className="relative h-full overflow-hidden rounded-xl bg-zinc-800/50 backdrop-blur-sm border border-zinc-700/50 transition-all duration-300 hover:border-purple-500/50"
+        className="relative h-full overflow-hidden rounded-xl bg-zinc-800/50 backdrop-blur-sm border border-zinc-700/50 transition-all duration-300 hover:border-green-600/50"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        <div className="absolute -inset-1 bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-xl blur opacity-25 hover:opacity-100 transition duration-1000"></div>
+        <div className="absolute -inset-1 bg-gradient-to-r from-green-600/10 to-green-400/10 rounded-xl blur opacity-25 hover:opacity-100 transition duration-1000"></div>
 
         <div className="relative h-full flex flex-col">
           {/* Image */}
           <div className="relative overflow-hidden h-48">
-            <div className="absolute inset-0 bg-gradient-to-b from-purple-500/20 to-pink-500/20 opacity-0 hover:opacity-100 transition-opacity duration-300 z-10" />
+            <div className="absolute inset-0 bg-gradient-to-b from-green-400/20 to-green-700/20 opacity-0 hover:opacity-100 transition-opacity duration-300 z-10" />
             <img
               src={image || "/placeholder.svg"}
               alt={title}
@@ -88,7 +88,7 @@ export function ProjectCard({
                 {demoUrl && (
                   <Button
                     size="sm"
-                    className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-500 border-0"
+                    className="bg-gradient-to-r from-green-600 to-green-400 hover:from-green-400 hover:to-green-600 border-0"
                     asChild
                   >
                     <Link href={demoUrl} target="_blank" rel="noopener noreferrer">

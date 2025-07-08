@@ -61,9 +61,11 @@ export function CreativeHero() {
         this.density = Math.random() * 30 + 1
         this.distance = 0
 
-        // Create a gradient from purple to pink
-        const hue = Math.random() * 60 + 270 // 270-330 range for purples and pinks
-        this.color = `hsl(${hue}, 70%, 60%)`
+        // Create a varied palette of greens (from yellow-green to teal)
+        const hue = Math.random() * 70 + 90 // 90-160 range for greens
+        const sat = Math.random() * 30 + 60 // 60-90% saturation
+        const light = Math.random() * 20 + 40 // 40-60% lightness
+        this.color = `hsl(${hue}, ${sat}%, ${light}%)`
       }
 
       update() {
@@ -151,7 +153,7 @@ export function CreativeHero() {
 
           if (distance < 30) {
             ctx.beginPath()
-            ctx.strokeStyle = `rgba(180, 120, 255, ${0.2 - distance / 150})`
+            ctx.strokeStyle = `rgba(34, 197, 94, ${0.2 - distance / 150})` // Tailwind green-500
             ctx.lineWidth = 0.5
             ctx.moveTo(particlesArray[i].x, particlesArray[i].y)
             ctx.lineTo(particlesArray[j].x, particlesArray[j].y)
