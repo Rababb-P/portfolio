@@ -22,7 +22,7 @@ export function ContactForm() {
           <h3 className="text-2xl font-bold mb-6">Send Me a Message</h3>
 
           <form
-            action="https://formsubmit.co/rababb.s.pannu@gmail.com"
+            action="https://formsubmit.co/bae2064e95b84f191637791a97d9ff0b "
             method="POST"
             className="space-y-6"
           >
