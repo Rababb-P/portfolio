@@ -134,7 +134,7 @@ export default function Portfolio() {
               <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-green-400/20 to-green-700/20 blur-xl opacity-70"></div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-zinc-800">
                 <img
-                  src="/portfolio/rababbpfp.jpg?height=600&width=600"
+                  src="/rababbpfp.jpg?height=600&width=600"
                   alt="Rababb Pannu"
                   className="w-full h-full object-cover"
                 />
