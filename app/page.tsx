@@ -240,7 +240,7 @@ export default function Portfolio() {
               title="Hack the North 2025 Award Winner"
               description="A full-stack collaborative site to lip read videos and create notes and quizzes based off content read."
               tags={["React", "Symphonic Labs' API", "OpenAI API", "Auth0", "MongoDB", "Cohere API"]}
-              image="/portfolio/studysync.jpg?height=400&width=600"
+              image="/studysync.jpg?height=400&width=600"
               demoUrl="https://devpost.com/software/studying-with-hack-the-north?ref_content=user-portfolio&ref_feature=in_progress"
               repoUrl="https://github.com/Rababb-P/StudySync-HTN"
             />
@@ -248,21 +248,21 @@ export default function Portfolio() {
               title="AI Garbage and Recycling Sorter"
               description="Waste bin that identifies garbage and recycling using a custom trained AI model and sorts them into seperate bins."
               tags={["Arduino", "Python", "Tensorflow"]}
-              image="/portfolio/aisortnocam.jpg?height=400&width=600"
+              image="/aisortnocam.jpg?height=400&width=600"
               demoUrl="https://devpost.com/software/smart-bin-owq4am"
             />
             <ProjectCard
               title="FIFA World Cup Stats On Graphs"
               description="A website that uses data from FIFA's 2022 world cup to create graphs analysing teams and their playstyles."
               tags={["React", "SQL", "MatPlotLib", "Python"]}
-              image="/portfolio/fifasite.png?height=400&width=400"
+              image="/fifasite.png?height=400&width=400"
               repoUrl="https://github.com/Rababb-P/UofTCreate2024Capstone"
             />
             <ProjectCard
               title="Team 854 Iron Bears First Robotics Robot and Learning Site"
               description="In 2025, I was the head of programming for Team 854, I programmed our robot and created a website for new programmers to learn on."
               tags={["Java", "WPILIB", "Robotics", "React"]}
-              image="/portfolio/frcpic.png?height=400&width=600"
+              image="/frcpic.png?height=400&width=600"
               demoUrl="https://rababb-p.github.io/frccoding/"
               repoUrl="https://github.com/Rababb-P/2025_Robot"
             />
@@ -270,14 +270,14 @@ export default function Portfolio() {
               title="UofT Seek Jr 2024 1st Place"
               description="My team and I obtained first place in this hackathon by creating and programming an Arduino controlled rover to autonomously navigate a maze and then scan barcodes while under Bluetooth control."
               tags={["Arduino", "C++"]}
-              image="/portfolio/seekjrwin.png?height=400&width=600"
+              image="/seekjrwin.png?height=400&width=600"
               demoUrl="https://rsxutoronto.wixsite.com/mysite/seek-jr-2024"
             />
             <ProjectCard
               title="School Newspaper Website"
               description="Editor-in-Chief (President) of my school's newspaper from September 2023 to June 2025 and worked with our web team to create a React website to digitize our articles."
               tags={["React", "Tailwind CSS", "Framer Motion"]}
-              image="/portfolio/beaconweb.png?height=400&width=600"
+              image="/beaconweb.png?height=400&width=600"
               demoUrl="https://martingrovebeacon.com"
               repoUrl="https://github.com/Rababb-P/beaconfinal"
             />
@@ -285,7 +285,7 @@ export default function Portfolio() {
               title="E-commerce Website to sell digital signatures"
               description="Created a React website to sell digital signatures. Used Stripe to collect payment and used Supabase to store buyer information to create their signature."
               tags={["Stripe", "Supabase", "React"]}
-              image="/portfolio/siglab.png?height=400&width=600"
+              image="/siglab.png?height=400&width=600"
               demoUrl="https://thesignaturelab.com/"
               repoUrl="https://github.com/Rababb-P/thesignaturelab"
             />
