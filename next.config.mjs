@@ -3,6 +3,7 @@ const nextConfig = {
   output: 'export',
   distDir: 'dist',
   basePath: '/portfolio',
+  assetPrefix: '/portfolio/',
   trailingSlash: true,
 
   eslint: {
