@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Rababb Pannu | Portfolio',
   description: 'Computer Engineering student at UWaterloo',
   icons: {
-    icon: '/logo.svg',
+    icon: '/portfolio/logo.svg',
   },
 }
 
