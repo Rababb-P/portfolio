@@ -240,7 +240,7 @@ export default function Portfolio() {
               title="Hack the North 2025 Award Winner"
               description="A full-stack collaborative site to lip read videos and create notes and quizzes based off content read."
               tags={["React", "Symphonic Labs' API", "OpenAI API", "Auth0", "MongoDB", "Cohere API"]}
-              image="/studysync.jpg?height=400&width=600"
+              image="/portfolio/studysync.jpg?height=400&width=600"
               demoUrl="https://devpost.com/software/studying-with-hack-the-north?ref_content=user-portfolio&ref_feature=in_progress"
               repoUrl="https://github.com/Rababb-P/StudySync-HTN"
             />
