@@ -8,7 +8,6 @@ import { Timeline } from "@/components/timeline"
 import { ContactForm } from "@/components/contact-form"
 import { CreativeHero } from "@/components/creative-hero"
 import { FloatingNav } from "@/components/floating-nav"
-import { MouseFollower } from "@/components/mouse-follower"
 import { ScrollProgress } from "@/components/scroll-progress"
 import { SectionHeading } from "@/components/section-heading"
 import { GlassmorphicCard } from "@/components/glassmorphic-card"
@@ -16,7 +15,6 @@ import { GlassmorphicCard } from "@/components/glassmorphic-card"
 export default function Portfolio() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-zinc-900 via-zinc-900 to-black text-white overflow-hidden">
-      <MouseFollower />
       <ScrollProgress />
       <FloatingNav />
 
