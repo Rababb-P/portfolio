@@ -182,7 +182,7 @@ export default function Portfolio() {
                 <div className="mt-8">
                   <Button className="bg-zinc-800 hover:bg-zinc-700 text-white" asChild>
                     <Link
-                      href="https://drive.google.com/file/d/1mZPWSs92euLjzjD9exuwSuFwyagcyLbh/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1ii0IkfGQmoTPOOE4HEEswy8KmEUylTrs/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -248,6 +248,7 @@ export default function Portfolio() {
               tags={["Arduino", "Python", "Tensorflow"]}
               image="/aisortnocam.jpg?height=400&width=600"
               demoUrl="https://devpost.com/software/smart-bin-owq4am"
+              repoUrl="https://github.com/Rababb-P/SmartBin-StarterHacks2024"
             />
             <ProjectCard
               title="FIFA World Cup Stats On Graphs"

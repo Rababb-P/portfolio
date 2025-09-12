@@ -88,7 +88,7 @@ export function FloatingNav() {
                 asChild
               >
                 <Link
-                  href="https://drive.google.com/file/d/1mZPWSs92euLjzjD9exuwSuFwyagcyLbh/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1ii0IkfGQmoTPOOE4HEEswy8KmEUylTrs/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
