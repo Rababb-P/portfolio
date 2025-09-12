@@ -215,8 +215,8 @@ export default function Portfolio() {
             <SkillBadge name="HTML/CSS" level={95} />
             <SkillBadge name="Tailwind CSS" level={90} />
             <SkillBadge name="PCB Design" level={75} />
-            <SkillBadge name="SQL" level={50} />
-            <SkillBadge name="AWS" level={35} />
+            <SkillBadge name="SQL" level={70} />
+            <SkillBadge name="AWS" level={80} />
             <SkillBadge name="Python" level={90} />
             <SkillBadge name="Git" level={85} />
           </div>
